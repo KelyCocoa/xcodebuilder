@@ -1,0 +1,6 @@
+/.idea/*
+/dist/*
+/organizer/*
+/app/config1/*
+/.idea
+Pipfile.lock
