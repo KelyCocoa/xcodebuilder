@@ -9,9 +9,11 @@ pip3 install pipenv
 # cd到xcodebuilder目录通过虚拟环境安装所需要的包
 pipenv install
 # 在config模块，ExportOptions_dev.plist和ExportOptions_prod.plist配置自己的相关配置信息
-# --deploy=dev打测试包上传fir.im --deploy=prod打正式包上传appstore --deploy=dev&prod both
+# 打测试包上传fir.im
 python3 index.py --deploy=dev
+# 打正式包上传appstore
 python3 index.py --deploy=prod
+# 打包上传fir.im和appstore
 python3 index.py --deploy=dev&prod
 # python3 index.py -h 查看更多相关命令
 ```
